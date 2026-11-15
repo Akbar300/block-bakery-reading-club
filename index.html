@@ -119,6 +119,14 @@ main{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch}
 .bubble{background:#FDF2F8;border-radius:18px;padding:10px 14px;position:relative;font-weight:500}
 /* games */
 .mhost{min-height:300px}
+.solsplit{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:16px;align-items:start}
+.solsplit.noside,.solsplit.sidehid{grid-template-columns:1fr}.solsplit.noside .solside{display:none}
+.solside{position:sticky;top:10px;max-height:calc(100vh - 140px);overflow:auto;background:#fff;border-radius:24px;padding:12px 14px;box-shadow:0 5px 0 #FBCFE8,0 8px 22px rgba(190,24,93,.08);border:3px solid #FDE68A}
+.solhead{display:flex;align-items:center;gap:8px;position:sticky;top:-12px;background:#fff;padding:6px 0;z-index:1}.solhead svg{width:22px;height:22px}.solhead b{font-size:18px;color:var(--pinkd)}
+.solside .passage p{font-size:18px}.solsplit.bigtext .solside .passage p{font-size:22px}
+.solside.collapsed{max-height:none}.solside.collapsed .passage{display:none}
+.solside.flash{animation:solflash .9s}@keyframes solflash{0%,100%{box-shadow:0 5px 0 #FBCFE8}40%{box-shadow:0 0 0 6px #FACC15}}
+@media (max-width:899px){.solsplit{grid-template-columns:1fr}.solside{order:-1;position:static;max-height:42vh}.solhead{top:0}}
 .gcard{background:#fff;border-radius:24px;padding:14px 16px 18px;box-shadow:0 5px 0 #FBCFE8,0 8px 22px rgba(190,24,93,.08);animation:fade .3s}
 .ghead{display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
 .ghead .mascot{width:78px;height:82px;flex:none}
@@ -1072,7 +1080,9 @@ function addIng(k,n=1){st.ing[k]=(st.ing[k]||0)+n;save()}
 function addCoins(n){st.coins+=n;save();updTop();const p=$('#coinPill');if(p){p.classList.remove('pop');void p.offsetWidth;p.classList.add('pop')}}
 function toast(html){let w=$('.toasts');if(!w){w=h('div',{class:'toasts'});document.body.append(w)}const t=h('div',{class:'toast',html});w.append(t);setTimeout(()=>t.classList.add('out'),2600);setTimeout(()=>t.remove(),3100)}
 function modal(content,o={}){const bg=h('div',{class:'modal-bg'});const m=h('div',{class:'modal'+(o.cls?' '+o.cls:'')});m.append(content);bg.append(m);document.body.append(bg);const close=()=>{bg.remove();stopSpeak();o.onClose&&o.onClose()};if(!o.sticky)bg.addEventListener('click',e=>{if(e.target===bg)close()});return {bg,m,close}}
-function peek(m,i){const box=h('div',{class:'peek'});const img=IMG[m.img];const p=passageEl(m);const M=modal(box,{cls:'wide'});
+function peek(m,i){const side=$('.solsplit:not(.noside) .solside:not(.collapsed)');
+ if(side&&side.offsetParent){$$('p.hl',side).forEach(x=>x.classList.remove('hl'));if(i!=null){const el=$(`[data-p="${i}"]`,side);if(el){el.classList.add('hl');el.scrollIntoView({block:'center',behavior:'smooth'})}}else{side.classList.remove('flash');void side.offsetWidth;side.classList.add('flash')}return}
+ const box=h('div',{class:'peek'});const img=IMG[m.img];const p=passageEl(m);const M=modal(box,{cls:'wide'});
  box.append(h('div',{class:'row'},h('h2',{},m.title),h('div',{class:'spacer'}),h('button',{class:'btn small',onclick:M.close},'Back to the game')),img?h('div',{class:'peekimg',style:`background-image:url(${img})`}):'',p);
  if(i!=null){const el=$(`[data-p="${i}"]`,p);if(el){el.classList.add('hl');setTimeout(()=>el.scrollIntoView({block:'center',behavior:'smooth'}),60)}}}
 /* ---- top bar ---- */
@@ -1129,7 +1139,15 @@ SCREENS.mission=id=>{const m=MISSIONS.find(x=>x.id===id);const idx=MISSIONS.inde
    h('div',{class:'readygo'},frag(buddySVG(guide,'bob')),h('div',{class:'bubble'},pick(['When you finish reading, let\'s play!','Read carefully - clues are hiding in the text!','I love this one! Ready to play?'])),h('button',{class:'btn big primary',id:'goGames',onclick:()=>{stopSpeak();play(0)}},'I read it! Let\'s play'))));
  read.classList.toggle('bigtext',!!st.set.big);host.append(read);
  const ingFor=i=>ING[(idx+i)%ING.length];
- async function play(i){if(i>=games.length)return finish();setStep(i+1);const g=games[i];const r=await runGame(g,{m,guide},host);mist+=r.mist;addCoins(2);
+ /* SOL-style: once she has read it, keep the story on the right while she answers. */
+ let split=null,gameHost=host;
+ function ensureSplit(){if(split)return;host.innerHTML='';gameHost=h('div',{class:'solgame'});
+  const narrow=matchMedia('(max-width:899px)').matches;
+  const tog=h('button',{class:'btn small soft soltog'},narrow?'Show the story':'Hide the story');
+  const side=h('aside',{class:'solside'+(narrow?' collapsed':'')},h('div',{class:'solhead'},frag(ICON.book),h('b',{},m.title),h('div',{class:'spacer'}),tog),passageEl(m));
+  tog.addEventListener('click',()=>{const c=side.classList.toggle('collapsed');tog.textContent=c?'Show the story':'Hide the story';split.classList.toggle('sidehid',c)});
+  split=h('div',{class:'solsplit'+(st.set.big?' bigtext':'')+(narrow?' sidehid':'')},gameHost,side);host.append(split)}
+ async function play(i){if(i>=games.length)return finish();setStep(i+1);const g=games[i];ensureSplit();split.classList.toggle('noside',g.t==='evidence');const r=await runGame(g,{m,guide},gameHost);mist+=r.mist;addCoins(2);
   if(!r.mist){const k=ingFor(i+1);addIng(k);toastIng(k)}play(i+1)}
  function finish(){const stars=mist<=1?3:mist<=4?2:1;const prev=st.done[m.id];const first=!prev;st.done[m.id]={stars:Math.max(stars,prev?prev.stars:0),t:Date.now(),mist};const coins=10+stars*5;addCoins(coins);
   const t=today();if(st.lastDay!==t){st.streakDays=st.lastDay&&dayDiff(st.lastDay,t)===1?st.streakDays+1:1;st.lastDay=t}

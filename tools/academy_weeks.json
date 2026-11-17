@@ -1,0 +1,2407 @@
+[
+{
+"n": 1,
+"start": "2026-09-28",
+"v2": false,
+"focus": "Long e spellings",
+"read_focus": "Character traits and actions",
+"spell": [
+"green",
+"feet",
+"beach",
+"team",
+"dream",
+"happy",
+"funny",
+"city",
+"me",
+"we"
+],
+"quiz": {
+"green": "The grass is green after the rain.",
+"feet": "My feet got wet in the puddle.",
+"beach": "We built a sandcastle at the beach.",
+"team": "Our team won the game.",
+"dream": "I had a dream about flying.",
+"happy": "The puppy looks happy.",
+"funny": "That joke was so funny.",
+"city": "We drove to the city.",
+"me": "Please give the book to me.",
+"we": "We went to the park."
+},
+"dict_s": [
+"The green tree grew by the beach.",
+"My team feels happy today.",
+"We had a funny dream.",
+"Can we see the city from here?",
+"My feet are tired, so we can rest."
+],
+"boxes": [
+[
+"ee",
+[
+"tree",
+"feet",
+"green"
+]
+],
+[
+"ea",
+[
+"beach",
+"team",
+"dream"
+]
+],
+[
+"y",
+[
+"happy",
+"funny",
+"city"
+]
+],
+[
+"e",
+[
+"me",
+"we",
+"be"
+]
+]
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Lena and the Last Pear",
+"parts": [
+{
+"title": "Lena and the Last Pear",
+"paras": [
+"Long ago, a hungry squirrel named Lena searched the forest for food. Winter was near, and the trees were bare. At last, she found one juicy pear under an old log.",
+"Lena was about to eat it when she heard a tiny cry. A little mouse sat shivering in the cold. \"I have not eaten in two days,\" the mouse whispered.",
+"Lena looked at the pear. Then she looked at the mouse. She sighed, broke the pear in half, and gave the bigger piece to her new friend. Soon the mouse stopped shivering. The next day, the mouse showed Lena a hidden nest full of acorns. And that is why the forest folk say, \"A kind heart is never empty.\""
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Which sentence BEST summarizes the story?",
+"opts": [
+"A squirrel finds a pear and eats it all by herself.",
+"A squirrel shares her only pear with a hungry mouse, and the mouse later helps her.",
+"A mouse finds a nest full of acorns in the winter.",
+"A squirrel searches the forest for food."
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "What is the LESSON of this story?",
+"opts": [
+"Always eat your food quickly.",
+"Sharing with others can bring kindness back to you.",
+"Winter is a cold season.",
+"Pears are better than acorns."
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "Which word best describes Lena?",
+"opts": [
+"selfish",
+"lazy",
+"generous",
+"rude"
+],
+"ans": 2,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "In paragraph 2, what does shivering mean?",
+"opts": [
+"shaking from the cold",
+"sleeping deeply",
+"running fast",
+"singing softly"
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+}
+]
+}
+],
+"words": [
+{
+"w": "generous",
+"m": "giving freely to others",
+"e1": "Lena was generous when she shared her pear.",
+"e2": "A generous friend gives you a turn first.",
+"c": "Tell about someone who is generous to you."
+},
+{
+"w": "shivering",
+"m": "shaking because you are cold",
+"e1": "The mouse sat shivering in the snow.",
+"e2": "I was shivering after the swim.",
+"c": "Show with your body what shivering looks like."
+},
+{
+"w": "hidden",
+"m": "put where nobody can see it",
+"e1": "The mouse showed Lena a hidden nest.",
+"e2": "The treasure was hidden under the tree.",
+"c": "Hide a toy and give a hint using the word hidden."
+}
+],
+"bbs": [
+{
+"s": "The mouse sat shivering in the cold",
+"because": "it had not eaten in two days.",
+"but": "Lena only had one pear.",
+"so": "Lena shared her pear."
+},
+{
+"s": "Lena gave half her pear away",
+"because": "the mouse was cold and hungry.",
+"but": "she was hungry too.",
+"so": "the mouse showed her a nest full of acorns."
+},
+{
+"s": "Lena searched the forest for food",
+"because": "winter was coming and the trees were bare.",
+"but": "she could only find one pear.",
+"so": "she had to choose what to do with it."
+}
+]
+},
+{
+"n": 2,
+"start": "2026-10-05",
+"v2": false,
+"focus": "Long i spellings",
+"read_focus": "Choices and consequences",
+"spell": [
+"kite",
+"smile",
+"night",
+"bright",
+"fly",
+"cry",
+"try",
+"find",
+"kind",
+"ride"
+],
+"quiz": {
+"kite": "The kite floated high in the sky.",
+"smile": "She gave me a big smile.",
+"night": "The stars come out at night.",
+"bright": "The sun is bright today.",
+"fly": "Birds fly south in winter.",
+"cry": "Babies cry when they are hungry.",
+"try": "Please try the soup.",
+"find": "I cannot find my shoe.",
+"kind": "Be kind to your neighbor.",
+"ride": "We ride our bikes to school."
+},
+"dict_s": [
+"The kite will fly at night.",
+"Her smile was kind and bright.",
+"Try to find the kite.",
+"Do not cry; we can ride home.",
+"We will ride to the lake at night."
+],
+"boxes": [
+[
+"i_e",
+[
+"kite",
+"smile",
+"ride"
+]
+],
+[
+"igh",
+[
+"night",
+"bright",
+"light"
+]
+],
+[
+"y",
+[
+"fly",
+"cry",
+"try"
+]
+],
+[
+"i",
+[
+"find",
+"kind",
+"child"
+]
+]
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "The Boastful Beetle",
+"parts": [
+{
+"title": "The Boastful Beetle",
+"paras": [
+"Bo the beetle loved to brag. \"I am the strongest bug in the whole meadow!\" he told everyone. \"I can lift a leaf over my head!\"",
+"One bright morning, a gust of wind blew a heavy twig onto the path. All the ants stopped. They could not get by. \"Easy!\" said Bo. He pushed and pushed. He puffed and grunted. But the twig did not move, and soon Bo was stuck beneath it, with his legs kicking in the air.",
+"The ants worked together. They tugged the twig a little, then a little more, until Bo wiggled free. Bo blushed. \"You are strong because you help each other,\" he said quietly. \"Next time I will ask for help.\" From that day on, Bo bragged less and listened more."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "What is the best heading for paragraph 3?",
+"opts": [
+"Bo Loves to Brag",
+"Teamwork Frees Bo",
+"A Heavy Twig on the Path",
+"Bo Blushes"
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "Why did Bo get stuck?",
+"opts": [
+"He tried to push a heavy twig all by himself.",
+"He was too small to see the twig.",
+"The ants pushed him.",
+"He fell asleep on the path."
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "How did Bo change by the end?",
+"opts": [
+"He bragged even more.",
+"He learned to ask for help and listen.",
+"He moved away from the meadow.",
+"He became afraid of ants."
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "In paragraph 1, what does brag mean?",
+"opts": [
+"run away",
+"talk proudly about how great you are",
+"whisper a secret",
+"fall asleep"
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+}
+]
+}
+],
+"words": [
+{
+"w": "brag",
+"m": "to talk too proudly about yourself",
+"e1": "Bo loved to brag about his strength.",
+"e2": "It is better to be proud quietly than to brag.",
+"c": "Say one thing you are proud of without bragging."
+},
+{
+"w": "consequence",
+"m": "something that happens because of what you did",
+"e1": "The consequence of bragging was that Bo got stuck.",
+"e2": "If you forget your coat, the consequence is being cold.",
+"c": "Name one choice you made today and its consequence."
+},
+{
+"w": "blushed",
+"m": "turned red in the face from feeling shy",
+"e1": "Bo blushed when the ants saved him.",
+"e2": "She blushed when everyone sang to her.",
+"c": "Tell about a time you blushed."
+}
+],
+"bbs": [
+{
+"s": "Bo got stuck under the twig",
+"because": "he tried to move it all by himself to show off his strength.",
+"but": "he had told everyone it was easy.",
+"so": "the ants had to rescue him."
+},
+{
+"s": "The ants moved the twig",
+"because": "they worked together and tugged as a team.",
+"but": "Bo could not move it alone.",
+"so": "Bo was set free."
+},
+{
+"s": "Bo bragged less after that day",
+"because": "he learned that asking for help is smart.",
+"but": "he was still strong.",
+"so": "he began to listen more."
+}
+]
+},
+{
+"n": 3,
+"start": "2026-10-12",
+"v2": false,
+"focus": "Compound words",
+"read_focus": "Similes (nonliteral language)",
+"spell": [
+"sunlight",
+"rainbow",
+"bedtime",
+"cupcake",
+"backpack",
+"notebook",
+"baseball",
+"popcorn",
+"snowman",
+"playground"
+],
+"quiz": {
+"sunlight": "Sunlight came through the window.",
+"rainbow": "A rainbow showed up after the rain.",
+"bedtime": "Bedtime is at eight o'clock.",
+"cupcake": "I ate a cupcake with pink frosting.",
+"backpack": "My backpack is full of books.",
+"notebook": "Write it in your notebook.",
+"baseball": "He hit the baseball over the fence.",
+"popcorn": "We shared a bowl of popcorn.",
+"snowman": "The snowman has a carrot nose.",
+"playground": "We played on the playground."
+},
+"dict_s": [
+"I put my notebook in my backpack.",
+"We ate popcorn at the baseball game.",
+"A snowman stood on the playground.",
+"The rainbow came after the storm.",
+"At bedtime, I saw the sunlight fade."
+],
+"boxes": null,
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Tomas and the Windy Bridge",
+"parts": [
+{
+"title": "Tomas and the Windy Bridge",
+"paras": [
+"The wind was as loud as a freight train. Tomas held onto his hat and looked at the old rope bridge. It was as thin as a ribbon, and it swung like a swing in a storm.",
+"Tomas's legs felt like jelly. But his grandmother was waiting on the other side, and the bread in his basket was still warm. He took a deep breath and stepped out slowly.",
+"Step by step, he crept across. The ropes creaked, and his heart beat like a drum. At last he reached the other side. Grandmother hugged him tight. \"You were as brave as a knight,\" she said. Tomas smiled. He had been afraid, but he had gone anyway."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "The author says the wind \"was as loud as a freight train\" in paragraph 1 to show...",
+"opts": [
+"how loud the wind was",
+"that a train was nearby",
+"that Tomas likes trains",
+"that the bridge was new"
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "In paragraph 2, \"his legs felt like jelly\" means...",
+"opts": [
+"his legs were made of jelly",
+"his legs felt weak and wobbly",
+"he was hungry",
+"he wanted to run"
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "\"His heart beat like a drum\" means his heart was...",
+"opts": [
+"beating loud and fast",
+"completely silent",
+"made of metal",
+"playing music"
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "What is the THEME of this story?",
+"opts": [
+"Bread is best when it is warm.",
+"Being brave means going on even when you are afraid.",
+"Bridges are always safe.",
+"Grandmothers like hugs."
+],
+"ans": 1,
+"qar": "",
+"skill": "Reading",
+"why": ""
+}
+]
+}
+],
+"words": [
+{
+"w": "creaked",
+"m": "made a long squeaky sound",
+"e1": "The old bridge creaked in the wind.",
+"e2": "The door creaked open slowly.",
+"c": "Make a creaking sound and say what could creak."
+},
+{
+"w": "crept",
+"m": "moved slowly and quietly",
+"e1": "Tomas crept across the bridge.",
+"e2": "The cat crept toward the bird.",
+"c": "Creep across the room like Tomas."
+},
+{
+"w": "simile",
+"m": "comparing two things using like or as",
+"e1": "As thin as a ribbon is a simile.",
+"e2": "He ran like the wind is a simile.",
+"c": "Make a simile about the moon."
+}
+],
+"bbs": [
+{
+"s": "Tomas crossed the bridge slowly",
+"because": "it was windy and the ropes were thin.",
+"but": "he wanted to get there fast.",
+"so": "he reached his grandmother safely."
+},
+{
+"s": "Tomas felt afraid",
+"because": "the bridge swung like a swing in a storm.",
+"but": "his grandmother was waiting for him.",
+"so": "he took a deep breath and stepped out."
+},
+{
+"s": "Grandmother said he was brave",
+"because": "he went across even though he was afraid.",
+"but": "he had felt scared.",
+"so": "Tomas smiled."
+}
+]
+},
+{
+"n": 4,
+"start": "2026-10-19",
+"v2": false,
+"focus": "Review: long e, long i, compounds",
+"read_focus": "Comparing two story plots",
+"spell": [
+"dream",
+"funny",
+"bright",
+"night",
+"rainbow",
+"popcorn",
+"backpack",
+"kind",
+"beach",
+"snowman"
+],
+"quiz": {
+"dream": "I had a dream about flying.",
+"funny": "That joke was so funny.",
+"bright": "The sun is bright today.",
+"night": "The stars come out at night.",
+"rainbow": "A rainbow showed up after the rain.",
+"popcorn": "We shared a bowl of popcorn.",
+"backpack": "My backpack is full of books.",
+"kind": "Be kind to your neighbor.",
+"beach": "We built a sandcastle at the beach.",
+"snowman": "The snowman has a carrot nose."
+},
+"dict_s": [
+"We saw a rainbow at the beach.",
+"My dream was funny.",
+"The bright moon lit the night.",
+"She is kind to her friend.",
+"I packed popcorn in my backpack."
+],
+"boxes": [
+[
+"Long e",
+[
+"tree",
+"dream",
+"funny",
+"beach"
+]
+],
+[
+"Long i",
+[
+"kite",
+"night",
+"fly",
+"kind"
+]
+],
+[
+"Compound word",
+[
+"rainbow",
+"popcorn",
+"backpack",
+"snowman"
+]
+]
+],
+"texts": [
+{
+"key": "story",
+"label": "Stories",
+"title": "Pip and the High Shelf and Dara and the Puddle",
+"parts": [
+{
+"title": "Pip and the High Shelf",
+"paras": [
+"Pip the mouse wanted the cheese on the high shelf. He jumped, but he could not reach it. He jumped again and again until his legs ached. At last he stacked three acorns, climbed up, and grabbed the cheese. \"Never give up,\" he squeaked."
+]
+},
+{
+"title": "Dara and the Puddle",
+"paras": [
+"Dara the ant wanted to cross a wide puddle. She tried to jump, but she fell in. Her friends saw her and made a bridge from a long leaf. Together they pushed it across. \"Friends make hard things easy,\" said Dara."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Which sentence BEST summarizes \"Pip and the High Shelf\"?",
+"opts": [
+"Pip wants cheese on a high shelf, keeps trying, and finally stacks acorns to reach it.",
+"Pip is a mouse who lives near a shelf with cheese on it.",
+"Pip jumps and his legs ache.",
+"Pip's friends build a bridge to help him."
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "How are the two stories ALIKE?",
+"opts": [
+"Both characters have a problem they cannot solve at first.",
+"Both characters are ants.",
+"Both stories happen at night.",
+"Both characters want cheese."
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "Which story teaches \"never give up\"?",
+"opts": [
+"Pip and the High Shelf",
+"Dara and the Puddle",
+"Both teach exactly the same lesson",
+"Neither one"
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+},
+{
+"t": "mc",
+"stem": "In Pip's story, what does ached mean?",
+"opts": [
+"hurt",
+"danced",
+"grew",
+"froze"
+],
+"ans": 0,
+"qar": "",
+"skill": "Reading",
+"why": ""
+}
+]
+}
+],
+"words": [
+{
+"w": "persistent",
+"m": "keeps trying and does not give up",
+"e1": "Pip was persistent and kept jumping.",
+"e2": "A persistent learner practices every day.",
+"c": "Name something you were persistent about."
+},
+{
+"w": "ached",
+"m": "hurt with a dull pain",
+"e1": "Pip jumped until his legs ached.",
+"e2": "My arms ached after carrying the boxes.",
+"c": "Tell about a time something ached."
+},
+{
+"w": "cooperate",
+"m": "to work together",
+"e1": "The ants cooperate to move heavy things.",
+"e2": "We cooperate to clean up.",
+"c": "How could you and a friend cooperate on a puzzle?"
+}
+],
+"bbs": [
+{
+"s": "Pip stacked three acorns",
+"because": "he could not reach the cheese by jumping.",
+"but": "he really wanted the cheese.",
+"so": "he could climb up and grab it."
+},
+{
+"s": "Dara fell in the puddle",
+"because": "she tried to jump the whole way.",
+"but": "she wanted to cross.",
+"so": "her friends made a bridge from a leaf."
+},
+{
+"s": "Pip and Dara both solved their problems",
+"because": "they did not give up.",
+"but": "each one used a different idea.",
+"so": "they felt proud."
+}
+]
+},
+{
+"n": 5,
+"start": "2026-10-26",
+"v2": true,
+"focus": "Long o and long u",
+"read_focus": "Cause and effect (story + fact pair)",
+"spell": [
+"boat",
+"road",
+"snow",
+"grow",
+"stone",
+"home",
+"blue",
+"glue",
+"threw",
+"new"
+],
+"quiz": {
+"boat": "The boat rocked on the lake.",
+"road": "The road bends past the farm.",
+"snow": "Snow covered the whole yard.",
+"grow": "Seeds need water to grow.",
+"stone": "She skipped a stone across the pond.",
+"home": "We walk home after school.",
+"blue": "The sky is bright blue.",
+"glue": "Use glue to stick the paper.",
+"threw": "He threw the ball to me.",
+"new": "I got a new backpack."
+},
+"dict_s": [
+"The blue boat sailed home.",
+"Snow fell on the road.",
+"He threw the stone into the lake.",
+"I will glue my new picture.",
+"Plants grow in the sun."
+],
+"boxes": [
+[
+"oa",
+[
+"boat",
+"road"
+]
+],
+[
+"ow",
+[
+"snow",
+"grow"
+]
+],
+[
+"o_e",
+[
+"stone",
+"home"
+]
+],
+[
+"ue",
+[
+"blue",
+"glue"
+]
+],
+[
+"ew",
+[
+"threw",
+"new"
+]
+],
+[
+"u_e",
+[
+"mule",
+"tube"
+]
+]
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Why Geese Fly South Together",
+"parts": [
+{
+"title": "Why Geese Fly South Together",
+"paras": [
+"Long ago, when the world was new, geese did not fly south for the winter. Each goose did whatever it pleased. The most stubborn goose of all was a young gander named Toma. \"I go where I want, when I want,\" he liked to say.",
+"One fall, the leaves turned gold and the wind blew cold. Old Grandmother Goose gathered the flock beside the lake. \"Snow is coming,\" she said. \"Soon the lake will freeze, and the grass will be gone. We must fly south, where the water stays open and the plants still grow. We will fly together, so no one gets lost.\"",
+"Toma flapped his wings and laughed. \"Not me. This lake is my home, and I will not leave it.\" The flock begged him to come, but Toma would not change his mind. So the flock flew off without him, honking good-bye in a long line across the blue sky.",
+"For a few days, Toma had the whole lake to himself. Then the snow came. It fell for three days and three nights. The lake turned to ice, so Toma had no place to swim. The grass was buried under the snow, so he had nothing to eat. Toma grew thin and weak. At night he shivered alone on the frozen shore.",
+"One gray morning, a crow landed beside him. \"Your flock went south,\" said the crow. \"Follow the river. It will lead you to them.\" Toma was tired, but he flew and flew along the river. Each day he flew a little slower. At last he heard honking. His flock was resting on a warm, open lake. Grandmother Goose spread her wings around him. \"We knew you would come,\" she said.",
+"Toma never forgot that hard winter. The next fall, he was the first goose to line up. And that is why, to this day, geese fly south together in a long V across the sky, calling to one another so that no one is left behind."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Based on paragraph 4, why did Toma have nothing to eat?",
+"opts": [
+"The crow took his food.",
+"The grass was buried under the snow.",
+"The flock ate all the grass.",
+"He was too tired to look for food."
+],
+"ans": 1,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RL.1",
+"why": "Paragraph 4 says \"The grass was buried under the snow, so he had nothing to eat.\""
+},
+{
+"t": "mc",
+"stem": "Which word best describes Toma at the BEGINNING of the story?",
+"opts": [
+"stubborn",
+"shy",
+"helpful",
+"careful"
+],
+"ans": 0,
+"qar": "search",
+"skill": "Character",
+"sol": "3.RL.1",
+"why": "He says \"I go where I want, when I want\" and will not change his mind."
+},
+{
+"t": "mc",
+"stem": "Which lesson does Toma learn?",
+"opts": [
+"Crows know the way to every lake.",
+"It is safer to stay together than to go alone.",
+"Snow always lasts three days.",
+"Old geese fly slowly."
+],
+"ans": 1,
+"qar": "author",
+"skill": "Lesson",
+"sol": "3.RL.1",
+"why": "At the end he is the first to line up, so no one is left behind."
+},
+{
+"t": "mc",
+"stem": "In paragraph 2, what does the word gathered mean?",
+"opts": [
+"sent away",
+"called together",
+"counted",
+"fed"
+],
+"ans": 1,
+"qar": "search",
+"skill": "Vocabulary",
+"sol": "3.RV.1",
+"why": "Grandmother Goose brings the flock together beside the lake to talk to them."
+},
+{
+"t": "hot",
+"stem": "Tap the sentence in paragraph 3 that shows Toma is stubborn.",
+"para": 2,
+"ans": "The flock begged him to come, but Toma would not change his mind.",
+"qar": "right",
+"skill": "Evidence",
+"sol": "3.DSR"
+},
+{
+"t": "order",
+"stem": "Put these events in the order they happen.",
+"items": [
+"Grandmother Goose says snow is coming.",
+"The flock flies away without Toma.",
+"The lake turns to ice.",
+"A crow tells Toma to follow the river."
+],
+"qar": "search",
+"skill": "Sequence",
+"sol": "3.RL.1"
+}
+]
+},
+{
+"key": "fact",
+"label": "Fact text",
+"title": "On the Move: How Geese Migrate",
+"parts": [
+{
+"title": "On the Move: How Geese Migrate",
+"paras": [
+"Every fall, you may hear loud honking high above you. Look up, and you might see a flock of Canada geese flying in the shape of a V. The geese are migrating. To migrate means to travel from one place to another when the seasons change.",
+"Geese eat grass, seeds, and water plants. In winter, snow covers the ground and ponds freeze in many northern places. When food is hard to find, many geese fly south, where the weather is warmer and the water stays open. In spring, when the snow melts, they fly back north to raise their babies, called goslings.",
+"Migrating geese often fly in a V shape. Scientists think the V helps the birds save energy. Each goose flies a little behind and to the side of the goose in front of it, where moving air helps lift its wings. Flying at the front is the hardest job, so the geese take turns leading. Their honking helps the flock stay together.",
+"How do geese know where to go? Young geese learn the route by flying with their parents. Scientists believe geese also use the sun, the stars, and landmarks such as rivers, coastlines, and mountains to find their way.",
+"Not all Canada geese migrate. In many towns and cities, including parts of Virginia, some geese stay all year long. Parks, ponds, and golf courses give them grass to eat and water that does not freeze. Because they can find food in winter, they do not need to make the long trip."
+],
+"heads": [
+null,
+"Why Geese Leave",
+"Flying in a V",
+"Finding the Way",
+"Some Geese Stay"
+],
+"caption": "Canada geese flying in a V. The goose at the front works the hardest, so the geese take turns."
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Which sentence tells the main idea of the section \"Flying in a V\"?",
+"opts": [
+"Geese honk while they fly.",
+"The V shape helps geese save energy on long trips.",
+"The biggest goose always flies at the front.",
+"Geese fly over rivers."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Main idea",
+"sol": "3.RI.1",
+"why": "Most sentences in that section explain how the V saves energy."
+},
+{
+"t": "mc",
+"stem": "Why does the author include the caption under the picture?",
+"opts": [
+"to name the goose in front",
+"to explain why the geese take turns leading",
+"to tell where geese sleep",
+"to show what geese eat"
+],
+"ans": 1,
+"qar": "right",
+"skill": "Text features",
+"sol": "3.RI.2",
+"why": "The caption says the front goose works hardest, so they take turns."
+},
+{
+"t": "mc",
+"stem": "Why do some geese in Virginia stay all year?",
+"opts": [
+"They are too young to fly.",
+"They can find food and open water in winter.",
+"They forgot the route.",
+"The V shape is too hard for them."
+],
+"ans": 1,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RI.1",
+"why": "\"Because they can find food in winter, they do not need to make the long trip.\""
+},
+{
+"t": "multi",
+"stem": "Which TWO ideas are in BOTH the story and the article?",
+"opts": [
+"Geese fly south when food is hard to find.",
+"A crow shows geese the way.",
+"Geese call to each other to stay together.",
+"Some geese stay at parks all winter."
+],
+"ans": [
+0,
+2
+],
+"qar": "search",
+"skill": "Compare texts",
+"sol": "3.RL.3",
+"why": "The story and the article both tell about food running out and honking to stay together."
+}
+]
+}
+],
+"words": [
+{
+"w": "stubborn",
+"m": "refusing to change your mind",
+"e1": "Toma was too stubborn to leave the lake.",
+"e2": "The stubborn mule would not move.",
+"c": "Tell about a time you were stubborn."
+},
+{
+"w": "survive",
+"m": "to stay alive",
+"e1": "Geese need food and open water to survive the winter.",
+"e2": "Plants need water to survive.",
+"c": "What does a pet need to survive?"
+},
+{
+"w": "migrate",
+"m": "to travel to a new place when the seasons change",
+"e1": "Canada geese migrate south in the fall.",
+"e2": "Whales migrate to warm water.",
+"c": "Which animal do you know that migrates?"
+}
+],
+"bbs": [
+{
+"s": "Toma stayed at the lake",
+"because": "he was stubborn and did not want to leave his home.",
+"but": "the rest of the flock flew south.",
+"so": "he was alone when the snow came."
+},
+{
+"s": "Geese fly in a V",
+"because": "it helps them save energy on long trips.",
+"but": "flying at the front is hard work.",
+"so": "they take turns leading."
+},
+{
+"s": "Some geese in Virginia stay all winter",
+"because": "parks and ponds give them food and open water.",
+"but": "most Canada geese still fly south.",
+"so": "you can see geese here even in January."
+}
+]
+},
+{
+"n": 6,
+"start": "2026-11-02",
+"v2": true,
+"focus": "R-controlled ar, or, ore",
+"read_focus": "Tall tales and conflict; how voting works",
+"purpose": "How does Marla save her town, and how does the town decide what to do?",
+"rule": "When r comes after a vowel, it changes the vowel sound. ar says the sound in car. or and ore say the sound in storm and more.",
+"spell": [
+"car",
+"farm",
+"star",
+"sharp",
+"storm",
+"horn",
+"corn",
+"more",
+"shore",
+"store",
+"because",
+"people",
+"important"
+],
+"quiz": {
+"car": "We rode in the car to the farm.",
+"farm": "The farm has a big red barn.",
+"star": "I made a wish on a star.",
+"sharp": "Be careful, the knife is sharp.",
+"storm": "The storm knocked down a tree.",
+"horn": "The driver honked the horn.",
+"corn": "We ate corn on the cob.",
+"more": "May I have more milk, please?",
+"shore": "We walked along the shore.",
+"store": "Mom went to the store for bread.",
+"because": "I wore a coat because it was cold.",
+"people": "Many people came to the parade.",
+"important": "It is important to vote."
+},
+"dict_s": [
+"The storm roared over the farm.",
+"Marla ate more corn on the porch.",
+"A star shines far away.",
+"We heard a sharp horn at the store.",
+"The boat came to shore before the storm."
+],
+"boxes": [
+[
+"ar",
+[
+"car",
+"farm",
+"star",
+"sharp"
+]
+],
+[
+"or",
+[
+"storm",
+"horn",
+"corn",
+"fork"
+]
+],
+[
+"ore",
+[
+"more",
+"shore",
+"store",
+"score"
+]
+]
+],
+"meaning": {
+"kind": "pairs",
+"title": "Synonyms",
+"rule": "Synonyms are words that mean almost the same thing, like big and large.",
+"cols": [
+"Word",
+"Synonym",
+"Clue"
+],
+"rows": [
+[
+"big",
+"large",
+"starts with l"
+],
+[
+"fast",
+"quick",
+"starts with q"
+],
+[
+"shout",
+"yell",
+"starts with y"
+],
+[
+"start",
+"begin",
+"starts with b"
+],
+[
+"glad",
+"happy",
+"starts with h"
+],
+[
+"shut",
+"close",
+"starts with c"
+]
+],
+"sents": [
+[
+"The town was glad when Marla came home. The town was ____ when Marla came home.",
+"happy"
+],
+[
+"Please shut the barn door. Please ____ the barn door.",
+"close"
+],
+[
+"The storm was very big. The storm was very ____.",
+"large"
+]
+]
+},
+"printed": [
+{
+"sheet": "Sheet B back (story)",
+"items": [
+"Genre (tall tale)",
+"Conflict",
+"Cause and effect",
+"Sequence"
+]
+},
+{
+"sheet": "Sheet C back (facts)",
+"items": [
+"Main idea",
+"Text features",
+"Sequence (flow chart)"
+]
+},
+{
+"sheet": "Sheet D front (Both texts + Quick Check)",
+"items": [
+"Compare texts",
+"Spelling: or",
+"Spelling: ar",
+"Spelling: ore",
+"Synonyms",
+"Vocabulary",
+"Story: cause and effect"
+]
+}
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Marla Barnes and the Mighty Storm",
+"parts": [
+{
+"title": "Marla Barnes and the Mighty Storm",
+"paras": [
+"Up in the hills of Virginia, on a farm with a red barn, lived the strongest girl who ever wore boots. Her name was Marla Barnes. On the day she was born, she let out a yell so loud that it shook the apples off every tree in the orchard. Her first word was \"MORE!\" and she said it to her mother's corn bread.",
+"By the time she was five, Marla could carry a cow under each arm. By the time she was eight, she could plow the whole cornfield before breakfast, using a fork from the kitchen. Folks came from miles around just to watch her work, and they always left shaking their heads.",
+"One hot summer, a storm started to grow far out past the mountains. It was the biggest, fiercest storm anyone had ever seen. Its clouds were as dark as a barn at midnight, and its thunder roared so loud that the stars hid. The storm was heading straight for Marla's town.",
+"The people of the town met in the town hall to decide what to do. Some wanted to hide in their cellars. Some wanted to pack their carts and run. Everybody talked at once, and nobody could agree. Finally, Marla stood up. \"Let's vote,\" she said. \"Each person gets one vote, and the idea with the most votes wins.\" The people wrote their choices on scraps of paper and dropped them into a hat. When the votes were counted, most people had chosen Marla's idea: she would stop the storm herself.",
+"Marla marched to the top of the tallest hill. The storm roared toward her, spinning faster than a top. Marla did not run. She reached up, grabbed the storm by its tail, and tied it in a knot. Then she swung onto its back and rode it like a wild horse.",
+"The storm bucked and twisted for three days and three nights. It tore so hard at the ground that it scooped out a valley, and the valley filled with rain and became a lake. At last the storm grew tired. Marla steered it to the seashore and set it gently down over the ocean, where it turned into a soft, warm rain.",
+"When Marla came home, the whole town cheered. They voted again, and this time every single vote said the same thing: Marla Barnes was the town's hero. If you visit those hills today, you can still swim in the lake that the storm dug, the summer Marla Barnes rode it out to sea."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "This story is a tall tale because —",
+"opts": [
+"it tells about a real storm that happened last year",
+"it tells about a hero who does impossible things, like riding a storm",
+"it gives facts about how storms form",
+"it is told by the storm"
+],
+"ans": 1,
+"qar": "author",
+"skill": "Genre (tall tale)",
+"sol": "3.RL.2",
+"why": "Tall tales have a larger-than-life hero and exaggeration, like carrying a cow under each arm and riding a storm."
+},
+{
+"t": "mc",
+"stem": "What is the main problem in the story?",
+"opts": [
+"Marla is too strong to work on the farm.",
+"A giant storm is heading toward the town.",
+"The people cannot find the town hall.",
+"The lake is too cold to swim in."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Conflict",
+"sol": "3.RL.1",
+"why": "Paragraph 3: the biggest storm anyone had ever seen was heading straight for the town."
+},
+{
+"t": "mc",
+"stem": "Based on paragraph 4, why did the people of the town vote?",
+"opts": [
+"They wanted to choose a new mayor.",
+"Nobody could agree on what to do about the storm.",
+"They wanted to count the cows.",
+"Marla wanted to win a prize."
+],
+"ans": 1,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RL.1",
+"why": "\"Everybody talked at once, and nobody could agree.\" Then Marla said, \"Let's vote.\""
+},
+{
+"t": "mc",
+"stem": "In paragraph 3, the thunder roared. Roared means the thunder —",
+"opts": [
+"made a very loud, deep sound",
+"moved very fast",
+"became very quiet",
+"flashed with light"
+],
+"ans": 0,
+"qar": "search",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "The thunder was so loud that \"the stars hid.\" Roared means a loud, deep sound."
+},
+{
+"t": "mc",
+"stem": "The next time a big storm comes, the people of the town will most likely —",
+"opts": [
+"hide and never talk to Marla",
+"ask Marla to help them",
+"move to a new town",
+"stop voting forever"
+],
+"ans": 1,
+"qar": "author",
+"skill": "Predict",
+"sol": "3.RL.1",
+"why": "They voted Marla their hero, so they will most likely ask her for help again."
+},
+{
+"t": "hot",
+"stem": "Tap the sentence in paragraph 2 that shows Marla is impossibly strong.",
+"para": 1,
+"ans": "By the time she was five, Marla could carry a cow under each arm.",
+"qar": "right",
+"skill": "Evidence",
+"sol": "3.DSR"
+},
+{
+"t": "order",
+"stem": "Put these events in the order they happen.",
+"items": [
+"A storm starts to grow past the mountains.",
+"The town votes on what to do.",
+"Marla rides the storm for three days.",
+"The town votes Marla its hero."
+],
+"qar": "search",
+"skill": "Sequence",
+"sol": "3.RL.1"
+}
+]
+},
+{
+"key": "fact",
+"label": "Fact text",
+"title": "Every Vote Counts: How Voting Works",
+"parts": [
+{
+"title": "Every Vote Counts: How Voting Works",
+"paras": [
+"Imagine your class has to choose a name for its new fish. Some students want Bubbles. Others want Captain Fin. How can the class decide in a fair way? One fair way is to vote. When people vote, each person gets one choice, and the choice with the most votes wins.",
+"In the United States, adults choose many of their leaders by voting. Citizens who are 18 years old or older can vote for leaders such as the president, the governor of their state, and the mayor of their town. People also vote on questions, such as whether their town should build a new park. Election Day is the Tuesday after the first Monday in November.",
+"On Election Day, many voters go to a polling place, such as a school or a library. Each voter gets a ballot. A ballot is a paper or a screen that lists the choices. The voter marks one choice for each question. In many states, including Virginia, people can also vote early or mail in their ballot.",
+"Voting is private. Each voter marks the ballot alone, behind a screen or curtain, and no one else sees the choices. Because the vote is secret, people can choose what they really think without worrying that someone will be upset with them.",
+"After the polls close, workers count the ballots carefully. The choice with the most votes wins. When a choice gets more than half of all the votes, we say it has a majority. Sometimes an election is very close, and just a few votes make the difference. That is why people say every vote counts."
+],
+"heads": [
+null,
+"Voting in Our Country",
+"How People Vote",
+"A Secret Vote",
+"Counting Every Vote"
+],
+"caption": "A voter drops a ballot into a ballot box. Only the voter knows what is marked on it."
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "What is the main idea of the section \"A Secret Vote\"?",
+"opts": [
+"Voters wait in long lines.",
+"Votes are private so people can choose what they really think.",
+"Voters use curtains at home.",
+"Secret votes are counted first."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Main idea",
+"sol": "3.RI.1",
+"why": "Every sentence in that section explains that votes are private and why."
+},
+{
+"t": "mc",
+"stem": "Which section would help you learn what a ballot is?",
+"opts": [
+"Voting in Our Country",
+"How People Vote",
+"A Secret Vote",
+"Counting Every Vote"
+],
+"ans": 1,
+"qar": "right",
+"skill": "Text features",
+"sol": "3.RI.2",
+"why": "\"How People Vote\" says \"A ballot is a paper or a screen that lists the choices.\""
+},
+{
+"t": "mc",
+"stem": "Why does the author begin the article with a class choosing a name for a fish?",
+"opts": [
+"to show that fish need names",
+"to give an example of voting that kids know",
+"to tell readers to buy a fish",
+"to explain how ballots are counted"
+],
+"ans": 1,
+"qar": "author",
+"skill": "Author's purpose",
+"sol": "3.RI.2",
+"why": "A class vote is something kids know, so it helps explain what voting is."
+},
+{
+"t": "mc",
+"stem": "In the section \"How People Vote,\" a polling place is —",
+"opts": [
+"a place where people go to vote",
+"a pole in a park",
+"a list of choices",
+"a secret"
+],
+"ans": 0,
+"qar": "search",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "\"Many voters go to a polling place, such as a school or a library.\""
+},
+{
+"t": "fill",
+"stem": "Complete the chart about voting.",
+"slots": [
+"A voter gets a ballot.",
+null,
+null,
+null
+],
+"bank": [
+"Workers count the ballots.",
+"The voter marks one choice in private.",
+"The choice with the most votes wins."
+],
+"ans": [
+1,
+0,
+2
+],
+"any": false,
+"qar": "search",
+"skill": "Sequence (flow chart)",
+"sol": "3.RI.1",
+"why": "Get a ballot, mark it in private, workers count, then the choice with the most votes wins."
+},
+{
+"t": "multi",
+"stem": "Which TWO ideas are in BOTH the story and the article?",
+"opts": [
+"Each person gets one vote.",
+"A storm can dig a lake.",
+"The choice with the most votes wins.",
+"Ballots are marked behind a curtain."
+],
+"ans": [
+0,
+2
+],
+"qar": "search",
+"skill": "Compare texts",
+"sol": "3.RL.3",
+"why": "Marla says each person gets one vote and the idea with the most votes wins; the article says the same."
+}
+]
+}
+],
+"words": [
+{
+"w": "exaggerate",
+"m": "to make something sound bigger or more than it really is",
+"e1": "Tall tales exaggerate, like a girl who carries a cow under each arm.",
+"e2": "I exaggerated when I said my backpack weighed a ton.",
+"c": "Tell an exaggeration about how hungry you are."
+},
+{
+"w": "majority",
+"m": "more than half of a group",
+"e1": "Most of the town voted for Marla's idea, so it had a majority.",
+"e2": "The majority of our class picked pizza day.",
+"c": "If 10 kids vote, how many votes make a majority?"
+},
+{
+"w": "fierce",
+"m": "very strong and wild",
+"e1": "It was the biggest, fiercest storm anyone had ever seen.",
+"e2": "A fierce wind blew the leaves away.",
+"c": "Show a fierce face, then a calm face."
+}
+],
+"bbs": [
+{
+"s": "Marla climbed the tallest hill",
+"because": "she wanted to stop the storm before it reached the town.",
+"but": "the storm was bigger than a mountain.",
+"so": "she grabbed it by its tail."
+},
+{
+"s": "The town held a vote",
+"because": "nobody could agree on what to do.",
+"but": "some people wanted to hide.",
+"so": "the idea with the most votes won."
+},
+{
+"s": "Voting is secret",
+"because": "people should feel free to choose what they really think.",
+"but": "voters can tell others how they voted if they want to.",
+"so": "each voter marks the ballot alone."
+}
+]
+},
+{
+"n": 7,
+"start": "2026-11-09",
+"v2": true,
+"focus": "R-controlled er, ir, ur",
+"read_focus": "Lessons and summaries; who makes the rules",
+"purpose": "How does Shirley solve her town's problem, and what new rule does the town make?",
+"rule": "er, ir and ur all make the same sound, as in her, bird and turn. Because they sound the same, you have to learn which spelling each word uses.",
+"spell": [
+"her",
+"fern",
+"herd",
+"bird",
+"girl",
+"first",
+"shirt",
+"turn",
+"burn",
+"nurse",
+"friend",
+"again",
+"thirsty"
+],
+"quiz": {
+"her": "I gave her a birthday card.",
+"fern": "A green fern grew by the rock.",
+"herd": "A herd of cows ate the grass.",
+"bird": "A bird sang in the tree.",
+"girl": "The girl rode her bike.",
+"first": "She was first in line.",
+"shirt": "He wore a striped shirt.",
+"turn": "It is your turn to roll the dice.",
+"burn": "Do not burn the toast.",
+"nurse": "The nurse checked my ears.",
+"friend": "My friend sat next to me.",
+"again": "Please read the story again.",
+"thirsty": "The dog was thirsty after the walk."
+},
+"dict_s": [
+"The bird sat on the dirt.",
+"Her first shirt was blue.",
+"The nurse helped the girl who got hurt.",
+"Turn left at the fern.",
+"The thirsty herd drank from the river."
+],
+"boxes": [
+[
+"er",
+[
+"her",
+"fern",
+"herd",
+"clerk"
+]
+],
+[
+"ir",
+[
+"bird",
+"girl",
+"first",
+"shirt"
+]
+],
+[
+"ur",
+[
+"turn",
+"burn",
+"curl",
+"nurse"
+]
+]
+],
+"meaning": {
+"kind": "pairs",
+"title": "Antonyms",
+"rule": "Antonyms are words with opposite meanings, like hot and cold.",
+"cols": [
+"Word",
+"Antonym",
+"Clue"
+],
+"rows": [
+[
+"first",
+"last",
+"starts with l"
+],
+[
+"wet",
+"dry",
+"starts with d"
+],
+[
+"loud",
+"quiet",
+"starts with q"
+],
+[
+"laugh",
+"cry",
+"starts with c"
+],
+[
+"full",
+"empty",
+"starts with e"
+],
+[
+"begin",
+"end",
+"starts with e"
+]
+],
+"sents": [
+[
+"The well was full. The well was ____.",
+"empty"
+],
+[
+"The ground was wet. The ground was ____.",
+"dry"
+],
+[
+"Shirley came in first. Shirley came in ____.",
+"last"
+]
+]
+},
+"printed": [
+{
+"sheet": "Sheet B back (story)",
+"items": [
+"Conflict",
+"Cause and effect",
+"Genre (exaggeration)",
+"Sequence"
+]
+},
+{
+"sheet": "Sheet C back (facts)",
+"items": [
+"Text features",
+"Main idea",
+"Sequence (flow chart)"
+]
+},
+{
+"sheet": "Sheet D front (Both texts + Quick Check)",
+"items": [
+"Compare texts",
+"Spelling: ir",
+"Spelling: er, ir, ur",
+"Antonyms",
+"Spelling: ur",
+"Vocabulary",
+"Story: cause and effect"
+]
+}
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Shirley Burke Digs a River",
+"parts": [
+{
+"title": "Shirley Burke Digs a River",
+"paras": [
+"In the dry hill country there once lived a girl named Shirley Burke. She was so quick that she could turn off the light and be in bed before the room got dark. Her curly hair was so thick that birds built nests in it, and she never minded one bit. She could whistle louder than a train, and she once outran a jackrabbit just to say good morning.",
+"One summer, no rain fell for forty days. The sun burned the grass brown, and the dirt cracked into a thousand pieces. The town well went dry. The cows in Farmer Hurd's herd were so thirsty that they mooed in a whisper, and even the frogs packed their bags and hopped away.",
+"The town council met to solve the problem. The council members talked about digging a new well, but the ground was as hard as rock. They talked about carrying water from the Silver River, but the river was a three-day walk away. No one could think of a plan that would work.",
+"Then Shirley spoke up at the meeting. \"If the town can't go to the river,\" she said, \"I'll bring the river to the town.\" The council members laughed, but Shirley did not. She rolled up the sleeves of her shirt, picked up a shovel, and started to dig.",
+"Shirley dug so fast that dirt flew up like a fountain. Rocks, roots, and old stumps leaped out of her way. In the first hour she dug a mile. By sunset she had dug all the way to the Silver River. When she lifted her last shovelful, the river burst through with a roar and came rushing down her ditch, curving and turning all the way to town.",
+"The people cheered and splashed. Farmer Hurd's cows drank until their bellies were as round as barrels. The council voted to name the new river after Shirley, and they made a new rule: no one may ever waste a single drop of its water.",
+"That is why, if you visit the dry hill country today, you will find a river with more twists and turns than a curly ribbon. People say it curves because Shirley stopped to say hello to every family on her way to town. Some folks say that on hot summer evenings, you can still hear Shirley humming as the water rushes by."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "What is the main problem in the story?",
+"opts": [
+"Shirley's hair is too curly.",
+"The town has no water because no rain has fallen.",
+"The frogs are too noisy.",
+"The council members cannot find their shovels."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Conflict",
+"sol": "3.RL.1",
+"why": "Paragraph 2: no rain fell for forty days and the town well went dry."
+},
+{
+"t": "mc",
+"stem": "Based on paragraph 3, why couldn't the council dig a new well?",
+"opts": [
+"The ground was as hard as rock.",
+"Shirley took all the shovels.",
+"The river was in the way.",
+"The cows were too thirsty."
+],
+"ans": 0,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RL.1",
+"why": "\"They talked about digging a new well, but the ground was as hard as rock.\""
+},
+{
+"t": "mc",
+"stem": "Which sentence from the story is an exaggeration?",
+"opts": [
+"The town well went dry.",
+"In the first hour she dug a mile.",
+"The council members laughed, but Shirley did not.",
+"The people cheered and splashed."
+],
+"ans": 1,
+"qar": "author",
+"skill": "Genre (exaggeration)",
+"sol": "3.RL.2",
+"why": "No one can dig a mile in an hour. Tall tales use exaggeration like this."
+},
+{
+"t": "mc",
+"stem": "In paragraph 2, the cows were so thirsty that they mooed in a whisper. Thirsty means the cows —",
+"opts": [
+"wanted to eat grass",
+"needed something to drink",
+"were very sleepy",
+"were scared of the frogs"
+],
+"ans": 1,
+"qar": "search",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "The well went dry, so there was nothing to drink."
+},
+{
+"t": "mc",
+"stem": "How do the council members change by the end of the story?",
+"opts": [
+"They stop laughing at Shirley and name the river after her.",
+"They decide to dig a new well.",
+"They move to a new town.",
+"They stop having meetings."
+],
+"ans": 0,
+"qar": "search",
+"skill": "Character change",
+"sol": "3.RL.1",
+"why": "In paragraph 4 they laugh; in paragraph 6 they vote to name the river after Shirley."
+},
+{
+"t": "hot",
+"stem": "Tap the sentence in paragraph 4 that shows Shirley does not give up.",
+"para": 3,
+"ans": "She rolled up the sleeves of her shirt, picked up a shovel, and started to dig.",
+"qar": "right",
+"skill": "Evidence",
+"sol": "3.DSR"
+},
+{
+"t": "order",
+"stem": "Put these events in the order they happen.",
+"items": [
+"No rain falls for forty days.",
+"The town council meets about the problem.",
+"Shirley digs all the way to the river.",
+"The council names the river after Shirley."
+],
+"qar": "search",
+"skill": "Sequence",
+"sol": "3.RL.1"
+}
+]
+},
+{
+"key": "fact",
+"label": "Fact text",
+"title": "Who Makes the Rules in Your Town?",
+"parts": [
+{
+"title": "Who Makes the Rules in Your Town?",
+"paras": [
+"Every community has rules. Some rules tell drivers how fast they may go. Others say when the library is open or where dogs must wear a leash. Rules made by a government are called laws. Who makes the laws for a town?",
+"In many towns, a group of people called the town council makes local laws. The people of the town vote to choose the council members. The council meets in public, often once or twice a month, to talk about problems and decide what to do.",
+"Many towns also have a mayor. The mayor leads the town and works with the council. In some places the mayor runs the council meetings and helps plan how the town will spend its money. The mayor also speaks for the town at special events, such as the opening of a new library.",
+"First, someone notices a problem, such as cars driving too fast near a school. Next, the council talks about the problem at a meeting and listens to what citizens think. Then the council members vote on a new rule, such as a lower speed limit. If the rule passes, the town puts up signs so everyone knows about it.",
+"Council meetings are open to the public. Citizens can come to a meeting, share their ideas, and ask questions. Even kids can write a letter to the council. When citizens speak up, leaders learn what the community needs."
+],
+"heads": [
+null,
+"The Town Council",
+"The Mayor",
+"How a Rule Is Made",
+"Citizens Can Speak Up"
+],
+"caption": "Neighbors share ideas at a town council meeting. Anyone can come and listen."
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Which section tells the steps for making a new rule?",
+"opts": [
+"The Town Council",
+"The Mayor",
+"How a Rule Is Made",
+"Citizens Can Speak Up"
+],
+"ans": 2,
+"qar": "right",
+"skill": "Text features",
+"sol": "3.RI.2",
+"why": "It uses the order words First, Next and Then to tell the steps."
+},
+{
+"t": "mc",
+"stem": "What is the main idea of the section \"Citizens Can Speak Up\"?",
+"opts": [
+"Kids cannot go to council meetings.",
+"People in a town can share their ideas with leaders.",
+"The mayor writes all the letters.",
+"Council meetings are secret."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Main idea",
+"sol": "3.RI.1",
+"why": "The section tells how citizens come to meetings and write letters so leaders learn what is needed."
+},
+{
+"t": "mc",
+"stem": "In the first paragraph, laws are —",
+"opts": [
+"rules made by a government",
+"signs for drivers",
+"books in a library",
+"people who lead a town"
+],
+"ans": 0,
+"qar": "right",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "\"Rules made by a government are called laws.\""
+},
+{
+"t": "mc",
+"stem": "Why does the town put up signs after a new rule passes?",
+"opts": [
+"so everyone knows about the rule",
+"to decorate the street",
+"so the council can vote again",
+"to find the mayor"
+],
+"ans": 0,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RI.1",
+"why": "\"The town puts up signs so everyone knows about it.\""
+},
+{
+"t": "fill",
+"stem": "Complete the chart about how a rule is made.",
+"slots": [
+"Someone notices a problem.",
+null,
+null,
+null
+],
+"bank": [
+"The council votes on a new rule.",
+"The town puts up signs.",
+"The council talks about the problem."
+],
+"ans": [
+2,
+0,
+1
+],
+"any": false,
+"qar": "search",
+"skill": "Sequence (flow chart)",
+"sol": "3.RI.1",
+"why": "Notice a problem, talk about it, vote on a rule, then put up signs."
+},
+{
+"t": "multi",
+"stem": "Which TWO ideas are in BOTH the story and the article?",
+"opts": [
+"A town council meets to solve problems.",
+"A girl digs a river with a shovel.",
+"A town council can make a new rule.",
+"Kids can write letters to the mayor."
+],
+"ans": [
+0,
+2
+],
+"qar": "search",
+"skill": "Compare texts",
+"sol": "3.RL.3",
+"why": "In both texts a council meets about a problem and makes a rule."
+}
+]
+}
+],
+"words": [
+{
+"w": "council",
+"m": "a group of people chosen to make decisions and rules",
+"e1": "The town council met to solve the water problem.",
+"e2": "Our student council planned the book fair.",
+"c": "What would you ask a town council to fix?"
+},
+{
+"w": "determined",
+"m": "not willing to give up",
+"e1": "Shirley was determined to bring water to her town.",
+"e2": "I was determined to finish the puzzle.",
+"c": "Tell about a time you were determined."
+},
+{
+"w": "burst",
+"m": "to break open suddenly",
+"e1": "The river burst through with a roar.",
+"e2": "The balloon burst with a pop.",
+"c": "What else can burst?"
+}
+],
+"bbs": [
+{
+"s": "The cows were thirsty",
+"because": "no rain had fallen for forty days.",
+"but": "Farmer Hurd had no water to give them.",
+"so": "they mooed in a whisper."
+},
+{
+"s": "The council laughed at Shirley",
+"because": "her plan sounded impossible.",
+"but": "Shirley picked up her shovel anyway.",
+"so": "she dug all the way to the river."
+},
+{
+"s": "Citizens go to council meetings",
+"because": "they want to share their ideas.",
+"but": "the council members make the final vote.",
+"so": "leaders learn what the town needs."
+}
+]
+},
+{
+"n": 8,
+"start": "2026-11-16",
+"v2": true,
+"focus": "Vowel sounds oi, oy, ou, ow",
+"read_focus": "Sensory language; comparing a story and an article",
+"purpose": "How does Joy's loud voice help her town?",
+"rule": "The sound in coin is spelled oi inside a word and oy at the end (boy). The sound in cloud is spelled ou inside a word, and often ow at the end or before n or l (cow, town, howl).",
+"spell": [
+"coin",
+"point",
+"soil",
+"boy",
+"joy",
+"cloud",
+"shout",
+"loud",
+"town",
+"crown",
+"thought",
+"through",
+"announce"
+],
+"quiz": {
+"coin": "I found a coin under the couch.",
+"point": "The pencil has a sharp point.",
+"soil": "Plant the seeds in the soil.",
+"boy": "The boy kicked the ball.",
+"joy": "The puppy jumped with joy.",
+"cloud": "A dark cloud covered the sun.",
+"shout": "Please do not shout in the library.",
+"loud": "The thunder was very loud.",
+"town": "Our town has a big park.",
+"crown": "The queen wore a gold crown.",
+"thought": "I thought it would rain today.",
+"through": "We walked through the woods.",
+"announce": "The principal will announce the winner."
+},
+"dict_s": [
+"The boy found a coin in the soil.",
+"A loud shout came from the town.",
+"The cow looked up at a dark cloud.",
+"Joy will join the crowd.",
+"The king put on his crown."
+],
+"boxes": [
+[
+"oi",
+[
+"coin",
+"point",
+"soil"
+]
+],
+[
+"oy",
+[
+"boy",
+"joy",
+"enjoy"
+]
+],
+[
+"ou",
+[
+"cloud",
+"shout",
+"loud"
+]
+],
+[
+"ow",
+[
+"town",
+"crown",
+"howl"
+]
+]
+],
+"meaning": {
+"kind": "shades",
+"title": "Shades of Meaning",
+"rule": "Some words mean almost the same thing but are a little stronger or weaker. Whisper, say and shout are all ways to talk, from soft to loud.",
+"rows": [
+[
+"soft to loud",
+[
+"whisper",
+"murmur",
+"say",
+"shout"
+]
+],
+[
+"slow to fast",
+[
+"crawl",
+"walk",
+"jog",
+"sprint"
+]
+],
+[
+"small to big",
+[
+"tiny",
+"small",
+"big",
+"gigantic"
+]
+]
+],
+"sents": [
+[
+"The baby was asleep, so we had to ____.",
+"whisper"
+],
+[
+"Joy had to ____ from the lighthouse so the boats could hear.",
+"shout"
+],
+[
+"The turtle began to ____ across the sand.",
+"crawl"
+]
+]
+},
+"printed": [
+{
+"sheet": "Sheet B back (story)",
+"items": [
+"Conflict",
+"Character feelings",
+"Sensory language",
+"Context clues",
+"Sequence"
+]
+},
+{
+"sheet": "Sheet C back (facts)",
+"items": [
+"Text features",
+"Cause and effect",
+"Sequence (flow chart)"
+]
+},
+{
+"sheet": "Sheet D front (Both texts + Quick Check)",
+"items": [
+"Compare texts",
+"Spelling: oi",
+"Spelling: oi, oy",
+"Spelling: ou, ow",
+"Shades of meaning",
+"Article: details",
+"Story: cause and effect"
+]
+}
+],
+"texts": [
+{
+"key": "story",
+"label": "Story",
+"title": "Joy Howard and the Voice That Saved the Town",
+"parts": [
+{
+"title": "Joy Howard and the Voice That Saved the Town",
+"paras": [
+"In a little town by the sea lived a girl named Joy Howard, and Joy had the loudest voice in the world. When she was a baby, her cry could knock the crows out of the trees. When she sang in the shower, the fish in the bay popped their heads out of the water to listen. Her laugh was so big that it once blew the hat off the mailman two streets away.",
+"Joy's voice made some people grumble. \"Joy, please don't shout,\" her mother would say. \"Use your inside voice.\" Joy tried. She whispered, she murmured, and she mumbled. But even Joy's whisper could rattle the windows on Main Street, and her mumble could be heard in the next town.",
+"One autumn night, a thick fog rolled in from the ocean. It was so thick you could cut it with a spoon. Out at sea, the fishing boats were heading home, but the fishermen could not see the shore. They called out to one another, but they could barely see the ends of their own boats. To make matters worse, the town's foghorn had broken that very morning. Without the horn, the boats might crash into the rocks.",
+"The mayor ran through the town looking for help. \"Somebody has to call the boats home!\" she cried. People shouted from the docks, but the fog swallowed their voices. Then the mayor remembered Joy Howard.",
+"Joy climbed to the top of the lighthouse. She took a deep breath, all the way down to her toes, and she shouted, \"THIS WAY HOME!\" Her voice boomed across the water like a giant drum. It bounced off the clouds and rolled over the waves. Out in the fog, the fishermen heard it. They turned their boats toward the sound and followed it, one by one, safely into the harbor.",
+"The next day, the whole town gathered in front of the town hall. The mayor gave Joy a shiny brass crown that said Official Town Voice. Joy wore it every day. From then on, nobody asked Joy to use her inside voice, and whenever the fog rolled in, she climbed the lighthouse stairs two at a time. And on foggy nights, sailors say you can still hear her calling across the bay."
+]
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "What is the main problem in paragraph 3?",
+"opts": [
+"Joy's voice is too quiet.",
+"Fog hides the shore, and the foghorn is broken.",
+"The fish will not listen to Joy.",
+"The mayor loses her crown."
+],
+"ans": 1,
+"qar": "right",
+"skill": "Conflict",
+"sol": "3.RL.1",
+"why": "The fishermen cannot see the shore, and the foghorn broke that morning."
+},
+{
+"t": "mc",
+"stem": "Which word best describes how the town feels about Joy's voice at the end of the story?",
+"opts": [
+"annoyed",
+"thankful",
+"bored",
+"afraid"
+],
+"ans": 1,
+"qar": "search",
+"skill": "Character feelings",
+"sol": "3.RL.1",
+"why": "They gather to give her a crown and no one asks her to be quiet anymore."
+},
+{
+"t": "mc",
+"stem": "In paragraph 5, the author says Joy's voice \"boomed across the water like a giant drum\" to show that her voice was —",
+"opts": [
+"very loud and deep",
+"soft and gentle",
+"wet from the waves",
+"hard to hear"
+],
+"ans": 0,
+"qar": "author",
+"skill": "Sensory language",
+"sol": "3.RL.2",
+"why": "A giant drum makes a loud, deep boom, so the words help you hear how loud she was."
+},
+{
+"t": "mc",
+"stem": "In paragraph 2, murmured means —",
+"opts": [
+"spoke in a soft, low voice",
+"yelled very loudly",
+"laughed",
+"sang a song"
+],
+"ans": 0,
+"qar": "search",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "She was trying to use a quiet voice: whispered, murmured, mumbled."
+},
+{
+"t": "mc",
+"stem": "Why did Joy climb to the top of the lighthouse?",
+"opts": [
+"so her voice could carry far over the water",
+"to fix the foghorn",
+"to hide from the fog",
+"to look for fish"
+],
+"ans": 0,
+"qar": "author",
+"skill": "Inference",
+"sol": "3.RL.1",
+"why": "From up high, her shout could reach the boats far out in the fog."
+},
+{
+"t": "hot",
+"stem": "Tap the sentence in paragraph 5 that tells how the fishermen got home.",
+"para": 4,
+"ans": "They turned their boats toward the sound and followed it, one by one, safely into the harbor.",
+"qar": "right",
+"skill": "Evidence",
+"sol": "3.DSR"
+},
+{
+"t": "order",
+"stem": "Put these events in the order they happen.",
+"items": [
+"Fog rolls in from the ocean.",
+"The mayor looks for help.",
+"Joy shouts from the lighthouse.",
+"The town gives Joy a crown."
+],
+"qar": "search",
+"skill": "Sequence",
+"sol": "3.RL.1"
+}
+]
+},
+{
+"key": "fact",
+"label": "Fact text",
+"title": "Lights and Horns: How Lighthouses Keep Sailors Safe",
+"parts": [
+{
+"title": "Lights and Horns: How Lighthouses Keep Sailors Safe",
+"paras": [
+"For hundreds of years, sailors have faced a big danger near the shore: rocks hidden under the water. At night or in a storm, a ship could crash before the crew ever saw land. Lighthouses were built to warn sailors and guide them safely home.",
+"A lighthouse is a tall tower with a bright light at the top. Lighthouses stand on rocky points, on islands, and at the edges of harbors. Because the tower is so tall, sailors can see its light from many miles away. Many lighthouses are also painted with bright stripes or patterns so sailors can spot them in the daytime.",
+"Each lighthouse flashes its light in its own pattern. One might flash every five seconds. Another might flash twice and then go dark. By counting the flashes, sailors can tell which lighthouse they are looking at and figure out where they are.",
+"Thick fog can hide even the brightest light. So many lighthouses also had a fog signal, such as a bell or a foghorn. The loud, low sound traveled through the fog and warned sailors that land was near.",
+"Long ago, lighthouse keepers lived at the lighthouse. Every night they climbed the stairs to light the lamp, and they polished the glass so the light would shine brightly. Today most lights turn on by themselves, and ships also use computers and satellites to find their way. One of the oldest lighthouses in the country, the Old Cape Henry Lighthouse, was finished in 1792 and still stands in Virginia Beach."
+],
+"heads": [
+null,
+"A Light on the Shore",
+"Every Light Is Different",
+"Sounds for Foggy Days",
+"Keepers and Computers"
+],
+"caption": "A lighthouse beam shines through the fog. Its flashing pattern tells sailors which lighthouse it is."
+}
+],
+"qs": [
+{
+"t": "mc",
+"stem": "Which section explains how sailors can tell one lighthouse from another?",
+"opts": [
+"A Light on the Shore",
+"Every Light Is Different",
+"Sounds for Foggy Days",
+"Keepers and Computers"
+],
+"ans": 1,
+"qar": "right",
+"skill": "Text features",
+"sol": "3.RI.2",
+"why": "It says each light flashes in its own pattern, so sailors count the flashes."
+},
+{
+"t": "mc",
+"stem": "Why did many lighthouses have a foghorn?",
+"opts": [
+"to wake up the keeper",
+"because fog can hide the light",
+"to play music for sailors",
+"to scare away birds"
+],
+"ans": 1,
+"qar": "right",
+"skill": "Cause and effect",
+"sol": "3.RI.1",
+"why": "\"Thick fog can hide even the brightest light. So many lighthouses also had a fog signal.\""
+},
+{
+"t": "mc",
+"stem": "What is the main idea of the first paragraph?",
+"opts": [
+"Rocks under the water are pretty.",
+"Lighthouses were built to keep sailors safe near the shore.",
+"Ships only sail in the daytime.",
+"Sailors like storms."
+],
+"ans": 1,
+"qar": "search",
+"skill": "Main idea",
+"sol": "3.RI.1",
+"why": "The paragraph tells the danger, then says lighthouses were built to warn and guide sailors."
+},
+{
+"t": "mc",
+"stem": "In the section \"Keepers and Computers,\" polished means —",
+"opts": [
+"made shiny by rubbing",
+"broke into pieces",
+"painted red",
+"covered up"
+],
+"ans": 0,
+"qar": "search",
+"skill": "Context clues",
+"sol": "3.RV.1",
+"why": "They polished the glass \"so the light would shine brightly.\""
+},
+{
+"t": "fill",
+"stem": "Complete the chart. Put one box under each heading. One box does not belong.",
+"slots": [
+"Long ago",
+"Today"
+],
+"blankslots": true,
+"bank": [
+"Lights turn on by themselves.",
+"Keepers lit the lamp by hand.",
+"Sailors could see in thick fog."
+],
+"ans": [
+1,
+0
+],
+"any": false,
+"qar": "search",
+"skill": "Categorize details (chart)",
+"sol": "3.RI.1",
+"why": "Long ago, keepers lit the lamps. Today, most lights turn on by themselves. Fog still hides lights, so the third box does not belong."
+},
+{
+"t": "multi",
+"stem": "Which TWO ideas are in BOTH the story and the article?",
+"opts": [
+"Fog can hide the shore from sailors.",
+"A girl wears a brass crown.",
+"A loud sound can guide boats through fog.",
+"Keepers polish the glass every night."
+],
+"ans": [
+0,
+2
+],
+"qar": "search",
+"skill": "Compare texts",
+"sol": "3.RL.3",
+"why": "In both, fog hides the shore and a loud sound (Joy or a foghorn) helps sailors."
+}
+]
+}
+],
+"words": [
+{
+"w": "murmur",
+"m": "to speak in a soft, low voice",
+"e1": "Joy tried to murmur, but the windows still rattled.",
+"e2": "The baby murmured in her sleep.",
+"c": "Murmur a secret, then say it in a normal voice."
+},
+{
+"w": "harbor",
+"m": "a safe area of water near the shore where boats stay",
+"e1": "The boats sailed safely into the harbor.",
+"e2": "Many ships rest in the harbor at night.",
+"c": "What do you think you would see in a harbor?"
+},
+{
+"w": "official",
+"m": "chosen or approved by leaders",
+"e1": "The mayor named Joy the Official Town Voice.",
+"e2": "The referee is the official timekeeper.",
+"c": "If you had an official job at home, what would it be?"
+}
+],
+"bbs": [
+{
+"s": "Joy climbed the lighthouse",
+"because": "her voice needed to reach the boats far out at sea.",
+"but": "the fog was very thick.",
+"so": "the fishermen heard her and followed her home."
+},
+{
+"s": "Lighthouses flash in patterns",
+"because": "sailors need to know which lighthouse they see.",
+"but": "fog can hide the light.",
+"so": "many lighthouses also had foghorns."
+},
+{
+"s": "People asked Joy to whisper",
+"because": "her voice rattled the windows.",
+"but": "even her whisper was very loud.",
+"so": "she could be heard in the next town."
+}
+]
+}
+]

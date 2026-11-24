@@ -12,4 +12,4 @@ Stories written by kid authors, pinned at the top of Big Reads (always open, not
 The moon/sun button in the top bar switches between day and night colors for easier reading in the evening. The choice is saved on the device. All night colors live in the `DARK MODE` block at the end of the stylesheet and apply when `<html>` has the `dark` class.
 
 ### Printable story
-`print/sparkle-and-the-squishies.pdf` is a 2-page printable (story plus Think and Write page, with a pup illustration). It is linked from Story Corner.
+`print/sparkle-great-squishy-hunt.pdf` is the 4-page printable (story, questions, Think and Write) for the longer Squishy Hunt story. It is linked from Story Corner.
